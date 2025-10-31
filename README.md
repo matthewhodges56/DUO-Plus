@@ -1,10 +1,26 @@
-# DS-4330-001---Mgmt-Info-System-Analysis-Dsgn-DUO-CapStone-Repository-
-This is a Temporary description for a CapStone project. 
+# DUO System Improvement Project
 
-links to resoruces used so far:
-node.js https://nodejs.org/en
-from the website: Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.
+### Overview
+This repository contains the source files, documentation, and assets for the **DUO System Improvement Capstone Project**.  
+Our goal is to modernize and streamline DUO Mission’s client registration and data management process used on their outreach buses.
 
-php https://www.php.net/
-from the website: A popular general-purpose scripting language that is especially suited to web development.
-Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
+### Team
+- **Matthew Hodges** – Scrum Master  
+- **Skyler Emery** – Frontend Lead  
+- **Miguel Glass** – Backend Lead  
+- **Bethany** – Database Lead  
+- **Cameron** – Networking & Infrastructure  
+- **Lauren** – EMR / Data Specialist  
+
+### Current Sprint
+**Sprint 2 (Nov 3 – Nov 14, 2025)**  
+Focus: Environment setup, GitHub integration, and initial architecture planning.
+
+### Repository Structure
+/frontend → UI components and interface design
+/backend → API, logic, and database communication
+/docs → Meeting notes, sprint plans, and diagrams
+
+### Notes
+This README is **temporary** and will be expanded as the project develops.  
+Documentation and setup instructions will be added once the technical stack is finalized.
