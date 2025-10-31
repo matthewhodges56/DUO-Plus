@@ -1,25 +1,31 @@
 # DUO System Improvement Project
 
 ### Overview
-This repository contains the source files, documentation, and assets for the **DUO System Improvement Capstone Project**. Our goal is to modernize and streamline DUO Mission’s client registration and data management process used on their outreach buses.
+This repository contains the early development files for the **DUO System Improvement Capstone Project**.  The goal is to rebuild DUO Mission’s existing system from scratch using a modern, role-based structure that supports client registration, check-in, and service tracking.
 
-### Team
-- **Matthew Hodges** – Scrum Master  
-- **Skyler Emery** – Frontend Lead  
-- **Miguel Glass** – Backend Lead  
-- **Bethany** – Database Lead  
-- **Cameron** – Networking & Infrastructure  
-- **Lauren** – EMR / Data Specialist  
+---
 
-### Current Sprint
-**Sprint 2 (Nov 3 – Nov 14, 2025)**  
-Focus: Environment setup, GitHub integration, and initial architecture planning.
+### Tech Stack
+- **Frontend:** Plain HTML, JavaScript, Bootstrap (HopeUI Theme)  
+- **Backend:** PHP  
+- **Database:** Local MySQL  
+- **Documentation:** Stored in OneNote  
 
-### Repository Structure
-- /frontend → UI components and interface design
-- /backend → API, logic, and database communication
-- /docs → Meeting notes, sprint plans, and diagrams
+---
+
+### Current Structure
+- /assets → CSS, JS, images, and HopeUI theme files
+- /api → PHP backend endpoints
+- /pages → Frontend HTML pages (role-based dashboards)
+- /db → MySQL schema export
+
+---
 
 ### Notes
-This README is **temporary** and will be expanded as the project develops.  
-Documentation and setup instructions will be added once the technical stack is finalized.
+- This setup is **temporary** and will evolve as the rebuild progresses.  
+- Documentation, sprint notes, and process diagrams are managed in OneNote.  
+- OpenEMR integration and full backend logic will be added in later sprints.  
+
+---
+
+**DUO System Improvement Capstone Team — 2025**

@@ -1,0 +1,98 @@
+# ==========================
+# 🧹 BASIC IGNORE RULES
+# ==========================
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================
+# ⚙️ PHP / BACKEND FILES
+# ==========================
+
+# Composer dependencies (if ever added)
+vendor/
+
+# Environment & credentials
+.env
+.env.local
+.env.backup
+.env.example
+
+# Local PHP config files
+includes/config-local.php
+config-local.php
+
+# Cache & session files
+sessions/
+cache/
+tmp/
+*.session
+*.cache
+
+# ==========================
+# 🗃️ DATABASE
+# ==========================
+
+# Ignore local database dumps except main export
+*.sql
+!database/duo_system.sql
+
+# ==========================
+# 🌐 FRONTEND ASSETS
+# ==========================
+
+# Ignore build artifacts or temp assets
+node_modules/
+dist/
+build/
+*.map
+
+# ==========================
+# 🧪 TESTING / MISC
+# ==========================
+
+# Logs and debug files
+error_log
+php_error.log
+*.log
+
+# ==========================
+# 🧭 XAMPP / WAMP / MAMP
+# ==========================
+
+# Common local server artifacts
+htdocs/
+www/
+*.pid
+*.seed
+*.bak
+
+# ==========================
+# 🧱 BACKUPS / EXPORTS
+# ==========================
+
+# Ignore zipped or backup files
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# ==========================
+# ✅ KEEP THESE
+# ==========================
+
+# Keep example env for reference
+!.env.example
+# Keep primary SQL schema
+!database/duo_system.sql
